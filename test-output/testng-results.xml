@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32696" started-at="2020-06-05T12:11:36Z" finished-at="2020-06-05T12:12:08Z">
+  <suite name="Default suite" duration-ms="17016" started-at="2020-06-05T13:51:21Z" finished-at="2020-06-05T13:51:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32696" started-at="2020-06-05T12:11:36Z" finished-at="2020-06-05T12:12:08Z">
+    <test name="Default test" duration-ms="17016" started-at="2020-06-05T13:51:21Z" finished-at="2020-06-05T13:51:38Z">
       <class name="com.webdemo.VerifyLogin">
-        <test-method status="PASS" signature="automationTest1()[pri:0, instance:com.webdemo.VerifyLogin@724af044]" name="automationTest1" duration-ms="32655" started-at="2020-06-05T12:11:36Z" finished-at="2020-06-05T12:12:08Z">
+        <test-method status="PASS" signature="automationTest1()[pri:0, instance:com.webdemo.VerifyLogin@724af044]" name="automationTest1" duration-ms="16957" started-at="2020-06-05T13:51:21Z" finished-at="2020-06-05T13:51:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationTest1 -->

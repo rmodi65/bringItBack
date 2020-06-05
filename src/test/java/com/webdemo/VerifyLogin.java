@@ -14,17 +14,22 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class VerifyLogin {
+	public static final String USERNAME = "rohitmodi3";
+	public static final String AUTOMATE_KEY = "J5QyCReTX5qJrHt7xVGo";
+	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 	
 	
 	@Test
 	public void automationTest1() throws MalformedURLException
 	{
-		DesiredCapabilities dr=null;
-		dr=DesiredCapabilities.chrome();
-		dr.setBrowserName("chrome");
-		dr.setPlatform(Platform.WINDOWS);
-	//	System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
-	    WebDriver driver =new RemoteWebDriver(new URL("http://192.168.1.7:4444/wd/hub"),dr);
+		DesiredCapabilities caps = new DesiredCapabilities();
+        
+		caps.setCapability("os", "Windows");
+		caps.setCapability("os_version", "7");
+		caps.setCapability("browser", "Firefox");
+		caps.setCapability("browser_version", "74");
+		caps.setCapability("name", "rohitmodi3's First Test");
+		WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 		//	 WebDriver driver=new ChromeDriver();
 		driver.get("https://etrain.info/in");
 		String check=driver.getTitle();
