@@ -36,6 +36,7 @@ public class VerifyLogin {
 		System.out.println("Inside test 1");
 		Assert.assertEquals(true, check.contains("Indian"));
 		System.out.println(driver.getTitle());
+		
 		driver.close();
 	}
 //	@Test
@@ -48,6 +49,7 @@ public class VerifyLogin {
 		System.out.println("Inside test 2");
 		Assert.assertEquals(true, check.contains("Googl"));
 		driver.close();
+		System.out.println("Hi");
 
 	}
 
