@@ -49,7 +49,7 @@ public class VerifyLogin {
 		System.out.println("Inside test 2");
 		Assert.assertEquals(true, check.contains("Googl"));
 		driver.close();
-		System.out.println("Hi");
+		System.out.println("Hi sir");
 
 	}
 
